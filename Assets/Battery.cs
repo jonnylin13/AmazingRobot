@@ -68,11 +68,12 @@ public class Battery : MonoBehaviour
     {
         if (movement.isMoving())
         {
-            batteryLife -= 5;
+            batteryLife -= 2;
             updateBatteryImage();
             if (batteryLife <= 0)
             {
                 // End the game
+                // GAME OVER
             }
         }
     }
